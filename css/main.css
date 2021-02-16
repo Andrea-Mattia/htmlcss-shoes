@@ -12,3 +12,85 @@ html {
 body {
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+/* NAVBAR */
+.navigation {
+    position: fixed;
+    top: 0;
+    right: 30px;
+    z-index: 10;
+}
+
+.navigation ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px 0;
+}
+
+.navigation ul li a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: #000;
+    line-height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+/* MAIN CONTENT */
+/* SHOE 1*/
+
+.first-shoe {
+    position: relative;
+    height: 100vh;
+    background: red;
+}
+
+.first-shoe .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 32px;
+    text-align: center;
+    vertical-align: middle;
+    color: yellow;
+}
+
+/* SHOE 2 */
+.second-shoe {
+    position: relative;
+    height: 100vh;
+    background: green;
+}
+
+.second-shoe .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 32px;
+    text-align: center;
+    vertical-align: middle;
+    color: yellow;
+}
+
+/* SGOE 3 */
+.third-shoe {
+    position: relative;
+    height: 100vh;
+    background: yellow;
+}
+
+.third-shoe .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 32px;
+    text-align: center;
+    vertical-align: middle;
+    color: green;
+}
