@@ -95,3 +95,7 @@ body {
     vertical-align: middle;
     color: green;
 }
+
+.content img {
+    filter: drop-shadow(20px 20px 4px rgba(0,0,0, .50));
+}
